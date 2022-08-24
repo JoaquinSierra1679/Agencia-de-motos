@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;700&display=swap" rel="stylesheet">
+        <title>TU 0KM</title>
+    </head>
+    <body>
+        <div id="home5">
+          <header>
+            <nav>
+                <!--Enlaces relativos para navegar-->
+                <ul class="encabezado">
+                    <li id="titulo"> <h1 class="menu">TODO MOTOR</h1></li>
+                    <li id="menu__list"><a class="menu" href="../index.html">Inicio</a></li>
+                    <li id="menu__list"><a class="menu" href="listas.html">Nuestros modelos</a></li>
+                    <li id="menu__list"><a class="menu" href="tabla.html">Dias y Horarios</a></li>
+                    <li id="menu__list"><a class="menu" href="contactenos.html">Sobre nosotros</a></li>
+                </ul>
+            </nav>    
+          </header>    
+            <!--ENCABEZADO DE PAGINA-->
+            <div>
+                <h2 class="completando"><b>Completando este formulario podes iniciar el tramite para tener tu moto 0km</b></h2>
+            </div>
+            <!--FORMULARIO PARA INICIAR TRAMITE-->
+            <form id="formulario__motos" action="" method="get" enctype="multipart/form-data">
+                <fieldset class="casilleros">
+                    <legend>
+                        Informacion personal
+                    </legend>
+                    <div>
+                        <p class="sexo">Sexo</p>
+                        <label class="hombre" for="Hombre">Hombre</label>
+                        <input class="sexo__option" type="radio" name="sexo" id="hombre">
+                        <label for="mujer">Mujer</label>
+                        <input type="radio" name="sexo" id="mujer">
+                    </div>
+                    <div>
+                        <label class="apartado" for="nombre">Nombre</label>
+                        <input class="complete" type="text" id="nombre" name="nombre">
+                    </div>
+                    <div>
+                        <label class="apartado"  for="apellido">Apellido</label>
+                        <input class="complete" type="text" id="apellido" name="apellido">
+                    </div>
+                    <div>
+                        <label class="apartado"  for="telefono">Telefono</label>
+                        <input class="complete" type="number" id="telefono" name="telefono">
+                    </div>
+                    <div>
+                        <label class="apartado"  for="email">Email</label>
+                        <input class="complete" type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label class="apartado"  for="direccion">Dirección</label>
+                        <input class="complete" type="text" id="direccion" name="direccion">
+                    </div>
+                    <div>
+                        <label class="apartado"  for="modelo">Modelo</label>
+                        <select class="complete" name="modelo" id="modelo">
+                            <option value="cripton">Yamaha Cripton</option>
+                            <option value="xtz125">Yamaha XTZ 125</option>
+                            <option value="xtz250">Yamaha XTZ 250</option>
+                            <option value="yzf250">Yamaha YZF 250</option> 
+                            <option value="yzf450">Yamaha YZF 450</option>
+                            <option value="wave">Honda Wave</option>
+                            <option value="biz">Honda Biz</option>
+                            <option value="xr150">Honda XR 150</option>
+                            <option value="xr250">Honda XR 250</option>
+                            <option value="crf250">Honda CRF 250</option>
+                            <option value="crf450">Honda CRF 450</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="apartado" for="pago">Metodo de pago</label>
+                        <select class="complete" name="pago" id="pago" >
+                            <option value=“0”>Seleccione las cuotas</option>
+                            <option value=“1”>1 solo pago</option>
+                            <option value=“2”>3 cuotas sin interes</option>
+                            <option value=“3”>6 cuotas</option>
+                            <option value=“4”>12 cuotas</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="apartado" for="color">Color</label>
+                        <input class="complete__color" type="color" id="color" name="color">
+                    </div>
+                    <div class="btn--fondo">
+                        <input class="btn" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+                <footer>
+                    <div>
+                        <P class="seguinos5 fondo__negro" id="seguinos2"><b>SEGUINOS EN TODAS NUESTRAS REDES</b></P>
+                    </div>
+                    <!--ENLACES ABSOLUTOS-->
+                    <div id="redes5" class="fondo__negro">
+                        <a class="redes-list" id="seguinos2" href="https://www.facebook.com/joacko.sierra">Facebook</a>
+                        <a class="redes-list" id="seguinos2" href="https://www.instagram.com/joacosierraa/">Instagram</a>
+                        <a class="redes-list" id="seguinos2" href="https://www.youtube.com/channel/UC_0DQV0Pm6fnr9LMcRS7RHw/featured">YouTube</a>
+                        <a class="redes-list" id="seguinos2" href="https://twitter.com/joacosierraa">Twitter</a>
+                    </div>
+                </footer>
+        </div>
+    </body>
+</html>

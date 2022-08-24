@@ -1,0 +1,515 @@
+*{
+        padding: 0px;
+        margin: 0px;
+    font-family: 'Karma', serif;
+}
+
+#home--grid{
+    display: grid;
+    grid-template-areas: 
+    "#titulo #titulo #titulo #titulo"
+    "#Subtitulo #Subtitulo #Subtitulo #Subtitulo"
+    "#contactenos #contactenos #contactenos #contactenos"
+    ;
+    grid-template-rows: 50px 700px 40px;
+    grid-template-columns: repeat(3,1263px);
+    }
+    #titulo{
+    grid-area: #titulo;
+    }      
+    #menu__list{
+        grid-area: #menu__list;
+    }
+    #Subtitulo{
+    grid-area: #Subtitulo;
+    }
+    #contactenos{
+    grid-area: #contactenos;
+    }
+
+/*---------------------CELULAR------------------------------------------------------*/
+
+@media (max-width:480px){
+    a.menu{
+        margin: 0px;
+        size: 1px;
+    }
+    #titulo{
+        width: 100%;
+        margin-left: 110px;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .encabezado{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        flex-wrap: wrap;
+        justify-content: flex-start
+    }
+    li#menu__list{
+        margin: 0px;
+        margin-left: 10px;
+        padding: 0px;
+        width: 100px;
+        text-align: start;
+    }
+    .encabezado .menu{
+        margin: 0px;
+    }
+    #menu__list{
+        padding-top: 0px
+    }    
+    /*Index*/
+    .home{
+        width: 480px;
+        height: 100vh;
+    }
+    h2#Subtitulo{
+        margin-top: 0px;
+        margin-bottom: 560px;
+    }
+    a.redes-list{
+        margin-right: 120px;
+        margin-left: 120px;
+        display: contents;
+        margin-right: 20px;
+    }
+    /* Modelos */
+    #yamaha{
+        margin-top: 50px;
+    }
+    img#image__size {
+        width: 300px;
+        height: 300px;
+        justify-items: center;
+        text-align: center;
+        display: flex;
+    }
+    /*Horarios*/
+    h1.titulo3{
+        margin-top: 50px;
+    }
+    div.table{
+        margin: 0px;
+        width: 420px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    td.hora{
+        width: 20px;
+    }
+    /*NOSOTROS*/
+    h2.Subtitulo4{
+        margin-top: 40px;
+    }
+    p.parrafo__somos{
+        margin: 0px;
+    }
+    ul.encontranos{
+        height: 300px;
+    }
+    /*FORMULARIO 0KM*/
+    h2.completando{
+        margin-top: 120px;
+    }
+    form#formulario__motos{
+        margin: 0px;
+    }
+    fieldset.casilleros{
+        margin: 0px;
+        height: 600px;
+    }
+    input#hombre.sexo__option{
+        margin-right: 120px;
+    }
+}
+/*-------------------------------------------TABLET -----------------------------*/
+
+@media (max-width:1024px){
+    a.menu{
+        margin: 0px;
+        size: 1px;
+    }
+    #titulo{
+        width: 0%;
+        margin-left: 110px;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .encabezado{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        flex-wrap: wrap;
+        justify-content: flex-start
+    }
+    li#menu__list{
+        margin: 0px;
+        margin-left: 10px;
+        padding: 0px;
+        width: 100px;
+        text-align: start;
+    }
+    .encabezado .menu{
+        margin: 0px;
+    }
+    #menu__list{
+        padding-top: 0px
+    }    
+    /*Index*/
+    .header.home{
+        height: 100vh;
+    }
+    .home{
+        width: 1024px;
+        height: 100vh;
+    }
+    h2#Subtitulo{
+        margin-top: 40px;
+        margin-bottom: 1000px;
+    }
+    a.redes-list{
+        margin-right: 120px;
+        margin-left: 120px;
+        display: contents;
+        margin-right: 20px;
+    }
+    h3.modelos{
+        margin-top: 600px;
+    }
+    /* Modelos */
+    #yamaha{
+        margin-top: 50px;
+    }
+    img#image__size {
+        width: 300px;
+        height: 300px;
+        justify-items: center;
+        text-align: center;
+        display: flex;
+    }
+    /*Horarios*/
+    div.table{
+        width: 720px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    /*NOSOTROS*/
+    h2.Subtitulo4{
+        margin-top: 40px;
+    }
+    p.parrafo__somos{
+        margin: 0px;
+    }
+    ul.encontranos{ 
+        height: 300px;
+    }
+    /*FORMULARIO 0KM*/
+    form#formulario__motos{ 
+        margin: 0px;
+        width:  974px;
+    }
+    h2.completando{
+        border: solid 80px #000000;
+    }
+    fieldset.casilleros{
+        margin: 0px;
+        height: 600px;
+    }
+    p#seguinos2.seguinos5.fondo__negro{
+        height: 460px;
+    }
+}
+/*---------------------------DESKTOP--------------------------------*/
+
+.home{
+    background-image: url('https://lamoto.com.ar/wp-content/uploads/2020/06/crf450-3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+#titulo{
+    margin-right: 500px;
+}
+.encabezado {
+    background-color: #000000;
+    position: fixed;
+    width: 120%;
+    top: 0px;
+    list-style-type: none;
+    font-weight: 600;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.encabezado .menu{
+    text-decoration: none;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    flex-direction: end;
+    margin: 0px 15px 0px 0px;
+}
+
+#menu__list{
+    padding-top: 20px;
+}
+
+#Subtitulo {
+    margin-top: 70px;
+    margin-bottom: 570px;
+    padding-top: 140px;
+}
+
+#contactenos{
+    color: #000000;
+    text-decoration: none;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+}
+
+.modelos{
+    text-align: center;
+    margin: 110px
+}
+
+.texto{
+    margin: 100px 100px 30px 100px;
+}
+
+#video{
+    display: flex; 
+    justify-content: center;
+}
+
+.seguinos{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#redes{
+    text-align: center;
+    margin-top: 90px;
+}
+
+a.redes-list{
+    bottom: 0;
+    text-decoration: none;
+    margin-right: 120px;
+    margin-left: 120px;
+    color: #000000;
+}
+
+/* Modelos */
+
+#home2{
+    background-color: #000000;
+    height: 100%;
+}
+
+#lista__modelos{
+    margin-top: 70px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.marca{
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+#yamaha{
+    color: #ffffff;
+}
+
+#honda{
+    color: #ff0000;
+}
+
+.motos__name{
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+.motos__value{
+    text-align: center;
+    color:#0fcd4f;
+    list-style-type: none;
+}
+
+#image__size{
+    width: 700px;
+    height: 500px;
+}
+
+#seguinos2{
+    color: #ffffff;
+}
+
+/*DIAS Y HORARIOS*/
+
+#home3{
+    background-color: #000000;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.titulo3{
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.table{
+    background-color: #ffffff;
+    width: 920px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin:30px 0px 40px 190px;
+}
+
+.dias{
+    height: 100px;
+}
+
+/*NOSOTROS */
+
+#home4{
+    background-image: url('https://img.remediosdigitales.com/f3b8a4/sanders-dakar-2022-2/1366_2000.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.Subtitulo4{
+    margin-top: 0.1px;
+    margin-bottom: 1px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.parrafo__somos{
+    text-align: center;
+    margin: 40px;
+    font-size: 450;
+}
+
+.parrafo__redes{
+    text-align: center;
+}
+
+.encontranos{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 500px;
+    bottom: 0;
+}
+
+.encontranos .redes4{
+    color: #000000;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+}
+
+/*FORMULARIO SACA TU 0KM*/
+
+#home5{
+    background-image: url('https://www.motociclismo.es/uploads/static/motociclismo/upload/images/paragrapharticle/30090/paragrapharticle-70789-596c91c28efa2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.completando{
+    color: #ffffff;
+    border: solid 1px #000000;
+    background-color: #000000;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#formulario__motos{
+    background: #ffffff;
+    width: 500px;
+    height: 500px;
+    margin:30px 30px 20px 20px;
+}
+
+legend{
+    text-align: center;
+}
+
+fieldset{
+    text-align: start;
+}
+
+.sexo{
+    text-align: center
+}
+
+.hombre{
+    margin-left: 50px;
+}
+
+.sexo__option{
+    margin-right: 270px;
+}
+
+.apartado{
+    margin-left: 150px;
+}
+
+.complete{
+    margin-bottom: 30px;
+    display:inline;
+}
+
+.complete__color{
+    margin-bottom: 25px;
+}
+
+.btn--fondo{
+    background-color: #ffffff;
+}
+
+.btn{
+    background-color: #ffffff;
+    margin-left: 227px;
+}
+
+.fondo__negro{
+    background-color: #000000;
+}
+
+.seguinos5{
+    height: 150px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#redes5{
+    text-align: center;
+    bottom: 10px;
+}
