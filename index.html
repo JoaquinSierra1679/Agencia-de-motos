@@ -12,32 +12,31 @@
   </head>
   <body>
     <div>
-      <div id="home--grid">
-        <header class="home">
+      <div id="home--grid" class="home">
+        <header class="encabezado">
+          <article id="titulo"> <h1 class="menu">TODO MOTOR</h1></article>
           <nav>
             <!--ENLACES RELATIVOS(lista)-->
-            <ul class="encabezado">
-              <li id="titulo"> <h1 class="menu">TODO MOTOR</h1></li>
-              <li id="menu__list" > <a class="menu" href="pages/listas.html">Modelos</a></li>
-              <li id="menu__list" > <a class="menu" href="pages/tabla.html">Dias y Horarios</a></li>
-              <li id="menu__list" > <a class="menu" href="pages/contactenos.html">Nosotros</a></li>
-              <li id="menu__list" > <a class="menu" href="pages/formulario.html">Saca tu 0km</a></li>
+            <ul id="menu__list">
+              <li> <a class="menu" href="pages/listas.html">Modelos</a></li>
+              <li> <a class="menu" href="pages/tabla.html">Dias y Horarios</a></li>
+              <li> <a class="menu" href="pages/contactenos.html">Nosotros</a></li>
+              <li> <a class="menu" href="pages/formulario.html">Saca tu 0km</a></li>
             </ul>
           </nav>
-          <div> 
-            <nav>
-              <h2 id="Subtitulo">Bienvenidos a Todo Motor</h2>
-            </nav>
-          </div>
-          <div>
-            <!--ENLACE INTERNO-->
-            <a href="#footer" id="contactenos"><b>Contactenos</b></a>
-          </div>
-        </header>
-      </div>  
-      <h3 class="modelos"><b>CONOCE TODOS NUESTROS MODELOS.</b></h3>
-      <div>
-      <p class="texto">
+        </header>  
+        <section>
+          <h2 id="Subtitulo">Bienvenidos a Todo Motor</h2>
+        </section>
+          <!--ENLACE INTERNO-->
+        <article>
+          <a id="contactenos" href="#footer"><b>Contactenos</b></a>
+        </article>
+      </div>
+      <aside>
+        <h3 class="modelos"><b>CONOCE TODOS NUESTROS MODELOS</b></h3>
+        <div>
+        <p class="texto">
         Visita nuestra seccion de modelos y seguramente encontraras uno ideal para
         tus necesidades.Puede ser desde una moto de ciudad,una enduro o una Cross.
         En <b>Todo Motor</b>, pensamos en todos los usuarios.Tambien podes ver que
@@ -58,18 +57,21 @@
         allowfullscreen
         ></iframe>
         </div>
+      </aside>  
         <div id="footer">
           <footer class="fin">
             <div>
               <p class="seguinos"><b>SEGUINOS EN TODAS NUESTRAS REDES</b></p>
             </div>
             <!--ENLACES ABSOLUTOS-->
-            <div id="redes">
-              <a class="redes-list" href="https://www.facebook.com/joacko.sierra">Facebook</a>
-              <a class="redes-list" href="https://www.instagram.com/joacosierraa/">Instagram</a>
-              <a class="redes-list" href="https://www.youtube.com/channel/UC_0DQV0Pm6fnr9LMcRS7RHw/featured"
-              >You Tube</a>
-              <a class="redes-list" href="https://twitter.com/joacosierraa">Twitter</a>
+            <div>
+              <ul id="menu__list">
+                <li><a class="redes-list" href="https://www.facebook.com/joacko.sierra">Facebook</a></li>
+                <li><a class="redes-list" href="https://www.instagram.com/joacosierraa/">Instagram</a></li>
+                <li><a class="redes-list" href="https://www.youtube.com/channel/UC_0DQV0Pm6fnr9LMcRS7RHw/featured"
+                >You Tube</a></li>
+                <li><a class="redes-list" href="https://twitter.com/joacosierraa">Twitter</a></li>
+              </ul>
             </div>
           </footer>
         </div>

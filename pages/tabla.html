@@ -12,18 +12,20 @@
     </head>
     <body>
         <div id="home3">
-            <header>
-                <nav>
+            <div>
+                <header class="encabezado">
+                    <article id="titulo"> <h1 class="menu">TODO MOTOR</h1></article>
                     <!--ENLACES RELATIVOS-->
-                    <ul class="encabezado">
-                        <li id="titulo"><h1 class="menu">TODO MOTOR</h1></li>
-                        <li id="menu__list"><a class="menu" href="../index.html">Inicio</a></li>
-                        <li id="menu__list"><a class="menu" href="listas.html">Nuestros modelos</a></li>
-                        <li id="menu__list"><a class="menu" href="contactenos.html">Sobre nosotros</a></li>
-                        <li id="menu__list"><a class="menu" href="formulario.html">Saca tu 0km</a></li>
+                    <nav>
+                        <ul id="menu__list">
+                            <li><a class="menu" href="../index.html">Inicio</a></li>
+                            <li><a class="menu" href="listas.html">Nuestros modelos</a></li>
+                            <li><a class="menu" href="contactenos.html">Sobre nosotros</a></li>
+                            <li><a class="menu" href="formulario.html">Saca tu 0km</a></li>
                         </ul>
-                </nav>
-            </header>
+                    </nav>
+                </header>
+            </div>
             <h1 class="titulo3">Horarios de Todo Motor</h1>
             <div class="table">
                 <table id="table--horario" border="1" cellpadding="20" cellspacing="10">
@@ -39,7 +41,7 @@
                         </tr><!--cierre de fila-->
                     </thead>
                     <!-- "Cuerpo" de la tabla -->
-                    <tbody>
+                    <tbody id="tbody">
                         <tr> <!--inicio de fila-->
                             <td class="hora">De 7:00AM A 1:00PM</td><!--Celda-->
                             <td class="hora">De 7:00AM A 1:00PM</td> <!--Celda-->
@@ -64,12 +66,14 @@
                 <div>
                     <P class="seguinos" id="seguinos2"> <b>SEGUINOS EN TODAS NUESTRAS REDES</b></P>
                 </div>
-                <div id="redes">
-                    <!--ENLACES ABSOLUTOS-->
-                    <a class="redes-list" id="seguinos2" href="https://www.facebook.com/joacko.sierra">Facebook</a>
-                    <a class="redes-list" id="seguinos2" href="https://www.instagram.com/joacosierraa/">Instagram</a>
-                    <a class="redes-list" id="seguinos2" href="https://www.youtube.com/channel/UC_0DQV0Pm6fnr9LMcRS7RHw/featured">YouTube</a>
-                    <a class="redes-list" id="seguinos2" href="https://twitter.com/joacosierraa">Twitter</a>
+                <!--ENLACES ABSOLUTOS-->
+                <div>
+                    <ul id="menu__list">
+                        <li><a class="redes-list" id="seguinos2" href="https://www.facebook.com/joacko.sierra">Facebook</a></li>
+                        <li><a class="redes-list" id="seguinos2" href="https://www.instagram.com/joacosierraa/">Instagram</a></li>
+                        <li><a class="redes-list" id="seguinos2" href="https://www.youtube.com/channel/UC_0DQV0Pm6fnr9LMcRS7RHw/featured">YouTube</a></li>
+                        <li><a class="redes-list" id="seguinos2" href="https://twitter.com/joacosierraa">Twitter</a></li>
+                    </ul>
                 </div>
             </footer>
             </div>
