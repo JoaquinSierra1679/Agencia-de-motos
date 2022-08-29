@@ -77,16 +77,12 @@ flex-direction: column;
 justify-content:space-between;
 }
 #Subtitulo{
-    transition: all 0.8s ease;
+    transition: all 0.4s ease;
 }
 
 #Subtitulo:hover{
-    transition: all 0.8s ease;
+    transition: all 0.4s ease;
     transform: scaleY(2);
-    -webkit-transform: scaleY(2);
-    -moz-transform: scaleY(2);
-    -ms-transform: scaleY(2);
-    -o-transform: scaleY(2);
 }
 
 .encabezado .menu{
