@@ -1,0 +1,347 @@
+*{
+    padding: 0px;
+    margin: 0px;
+font-family: 'Karma', serif;
+}
+
+#home--grid{
+display: grid;
+grid-template-areas: 
+"header header"
+"section section"
+"article article"
+;
+grid-template-rows: 100px 650px 60px;
+grid-template-columns:repeat(1fr);
+}
+header{
+    grid-area: header;
+}      
+section{
+    grid-area: section;
+}
+#contactenos{
+    grid-area: #contactenos;
+}
+article{
+    grid-area: article;
+}
+
+/*---------------------hasta tablets grandes------------------------------------------------------*/
+
+@media (max-width:768px){
+
+}
+
+/*-------------------------------------------desktop -----------------------------*/
+
+@media (min-width:992px){
+    #navbarNav{
+        display:flex; 
+        justify-content:end;
+    }
+    #image__size{
+        width: 1000px;
+        height: 700px;
+    }
+    .casilleros{
+        padding: 0px 300px;
+    }
+    #formulario__motos{
+        margin: 70px;
+    }    
+}
+
+/*---------------------------MOBILE--------------------------------*/
+
+.home{
+background-image: url('https://lamoto.com.ar/wp-content/uploads/2020/06/crf450-3.jpeg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+height: 100vh;
+background-attachment:fixed;
+}
+#titulo{
+display: flex;
+justify-content: center;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+.encabezado { 
+    position: fixed; 
+    width: 100%; 
+    top: 0px; 
+    font-weight: 600;
+    display:flex; 
+    flex-direction: column; 
+}
+
+#Subtitulo{
+    transition: all 0.4s ease;
+}
+
+#Subtitulo:hover{
+    transition: all 0.4s ease;
+    transform: scaleY(2);
+}
+#menu__list{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+list-style-type: none;
+}
+#btn-contactenos{
+    display: none;
+}
+.btn--contenedor{
+    position: fixed;
+    bottom: 20px;
+}
+.contactenos a{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+}
+.contactenos a:hover{
+    background: #8a8686;
+}
+
+.modelos{
+text-align: center;
+margin: 110px
+}
+
+.texto{
+margin: 100px 100px 30px 100px;
+}
+
+#video{
+display: flex; 
+justify-content: center;
+}
+
+.seguinos{
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+a.redes-list{
+bottom: 0;
+text-decoration: none;
+color: #000000;
+}
+
+/* Modelos */
+
+#home2{
+background-image: linear-gradient(90deg,white,black,white);
+}
+
+#lista__modelos{
+display: flex; 
+flex-direction: column;
+justify-content: center;
+align-items: center;
+list-style-type: none;
+}
+
+.marca{
+color: #ffffff;
+padding: 50px;
+text-align: center;
+}
+
+#yamaha{
+margin-top: 50px;
+color: #ffffff;
+}
+
+#honda{
+color: #ff0000;
+}
+
+.motos__name{
+padding-top: 10px;
+color: #ffffff;
+}
+
+.motos__value{
+text-align: center;
+color:#0fcd4f;
+list-style-type: none;
+}
+
+#image__size{
+width: 400px;
+height: 300px;
+}
+
+#seguinos2{
+color: #ffffff;
+}
+
+/*DIAS Y HORARIOS*/
+
+#home3{
+    background-color: #000000;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.titulo3{
+color: #ffffff;
+padding-top: 100px;
+text-align: center;
+}
+#table--horario{
+text-align: center;
+background-color: #ffffff;
+}
+.table{
+background-color: #000000;
+display: flex;
+justify-content: center;
+
+}
+
+.dias{
+height: 100px;
+}
+tbody{
+    height: 200px;
+    border-width: 1;
+}
+
+/*NOSOTROS */
+
+#home4{
+background-image: url('https://img.remediosdigitales.com/f3b8a4/sanders-dakar-2022-2/1366_2000.jpg');
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+
+.Subtitulo4{
+margin-top: 0.1px;
+margin-bottom: 1px;
+padding-top: 100px;
+text-align: center;
+}
+
+.parrafo__somos{
+text-align: center;
+font-size: 450;
+}
+
+.parrafo__redes{
+text-align: center;
+}
+
+.encontranos{
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+height: 500px;
+bottom: 0;
+}
+
+.encontranos .redes4{
+color: #000000;
+border: solid 1px #000000;
+background-color: #ffffff;
+}
+
+/*FORMULARIO SACA TU 0KM*/
+
+#home5{
+background-image: url('https://www.motociclismo.es/uploads/static/motociclismo/upload/images/paragrapharticle/30090/paragrapharticle-70789-596c91c28efa2.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+
+.completando{
+color: #ffffff;
+border: solid 1px #000000;
+background-color: #000000;
+margin-top: 65px;
+text-align: center;
+}
+
+#formulario__motos{
+    
+display: flex;
+justify-content: center;
+}
+
+legend{
+text-align: center;
+}
+
+fieldset{
+text-align: start;
+background-color: #ffffff;
+}
+
+.sexo{
+text-align: center
+}
+.sexohm{
+    display: flex;
+    justify-content: space-evenly;
+}
+.diferentes-elecciones{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.complete{
+margin-bottom: 30px;
+display:inline;
+}
+
+.elegicolor{
+    display: flex;
+    justify-content: center;
+}
+.complete__color{
+margin-bottom: 25px;
+}
+
+.btn--fondo{
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+}
+
+.btn{
+background-color: #ffffff;
+}
+
+.fondo__negro{
+background-color: #000000;
+}
+
+.seguinos5{
+display: flex;
+justify-content: center;
+justify-items: end;
+margin-bottom: 40px;
+}
+#contactenos5{
+color: #ffffff;
+text-decoration: none;
+border: solid 1px #000000;
+background-color: #000000;
+}
+#finpag5{
+    background-color: #000000;
+    height: 50vh;
+}
