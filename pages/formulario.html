@@ -1,139 +1,227 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="../style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;700&display=swap" rel="stylesheet">
-        <title>TU 0KM</title>
-    </head>
-    <body>
-        <div id="home5">
-            <div>
-                <header class="encabezado">
-                    <nav class="navbar navbar-expand-lg bg-white">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#Subtitulo">TODO MOTOR</a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link" href="./tabla.html">Horarios</a>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link" href="./contactenos.html">Nosotros</a>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link" href="./listas.html">Modelos</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>    
-                    </nav>
-                </header> 
-            </div>   
-            <!--ENCABEZADO DE PAGINA-->
-            <div>
-                <h2 class="completando"><b>Completando este formulario podes iniciar el tramite para tener tu moto 0km</b></h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>TU 0KM</title>
+  </head>
+  <body>
+    <div id="home5">
+      <div>
+        <header class="encabezado">
+          <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#Subtitulo">TODO MOTOR</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="../index.html"
+                      >Inicio</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./tabla.html">Horarios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contactenos.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./listas.html">Modelos</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <!--FORMULARIO PARA INICIAR TRAMITE-->
-            <form id="formulario__motos" action="" method="get" enctype="multipart/form-data">
-                <fieldset class="casilleros">
-                    <legend>
-                        Informacion personal
-                    </legend>
-                    <p class="sexo">Sexo</p>
-                    <div class="sexohm">
-                        <div>
-                            <label class="hombre" for="Hombre">Hombre</label>
-                            <input class="sexo__option" type="radio" name="sexo" id="hombre">
-                        </div>
-                        <div>
-                            <label class="hombre" for="mujer">Mujer</label>
-                            <input type="radio" name="sexo" id="mujer">
-                        </div>
-                    </div>
-                    <div class="diferentes-elecciones">
-                        <div>
-                            <label class="apartado" for="nombre">Nombre</label>
-                            <input class="complete" type="text" id="nombre" name="nombre">
-                        </div>
-                        <div>
-                            <label class="apartado"  for="apellido">Apellido</label>
-                            <input class="complete" type="text" id="apellido" name="apellido">
-                        </div>
-                        <div>
-                            <label class="apartado"  for="telefono">Telefono</label>
-                            <input class="complete" type="number" id="telefono" name="telefono">
-                        </div>
-                        <div>
-                            <label class="apartado"  for="email">Email</label>
-                            <input class="complete" type="email" id="email" name="email">
-                        </div>
-                        <div>
-                            <label class="apartado"  for="direccion">Dirección</label>
-                            <input class="complete" type="text" id="direccion" name="direccion">
-                        </div>
-                        <div>
-                            <label class="apartado"  for="modelo">Modelo</label>
-                            <select class="complete" name="modelo" id="modelo">
-                                <option value="cripton">Yamaha Cripton</option>
-                                <option value="xtz125">Yamaha XTZ 125</option>
-                                <option value="xtz250">Yamaha XTZ 250</option>
-                                <option value="yzf250">Yamaha YZF 250</option> 
-                                <option value="yzf450">Yamaha YZF 450</option>
-                                <option value="wave">Honda Wave</option>
-                                <option value="biz">Honda Biz</option>
-                                <option value="xr150">Honda XR 150</option>
-                                <option value="xr250">Honda XR 250</option>
-                                <option value="crf250">Honda CRF 250</option>
-                                <option value="crf450">Honda CRF 450</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label class="apartado" for="pago">Metodo de pago</label>
-                            <select class="complete" name="pago" id="pago" >
-                                <option value=“0”>Seleccione las cuotas</option>
-                                <option value=“1”>1 solo pago</option>
-                                <option value=“2”>3 cuotas sin interes</option>
-                                <option value=“3”>6 cuotas</option>
-                                <option value=“4”>12 cuotas</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="elegicolor">
-                        <label class="apartado" for="color">Color</label>
-                        <input class="complete__color" type="color" id="color" name="color">
-                    </div>
-                    <div class="btn--fondo">
-                        <input class="btn" type="submit" value="Enviar">
-                    </div>
-                </fieldset>
-            </form>
-                <footer id="finpag5">
-                    <div>
-                        <P class="seguinos5 fondo__negro" id="seguinos2"><b>SEGUINOS EN TODAS NUESTRAS REDES</b></P>
-                    </div>
-                    <!--ENLACES ABSOLUTOS-->
-                    <div>
-                        <ul id="menu__list">
-                            <li><a class="redes-list" id="contactenos5" href="https://www.facebook.com/joacko.sierra">Facebook</a></li>
-                            <li><a class="redes-list" id="contactenos5" href="https://www.instagram.com/joacosierraa/">Instagram</a></li>
-                            <li><a class="redes-list" id="contactenos5" href="https://www.youtube.com/channel/UC_0DQV0Pm6fnr9LMcRS7RHw/featured">YouTube</a></li>
-                            <li><a class="redes-list" id="contactenos5" href="https://twitter.com/joacosierraa">Twitter</a></li>
-                        </ul>    
-                    </div>
-                </footer>
+          </nav>
+        </header>
+      </div>
+      <!--ENCABEZADO DE PAGINA-->
+      <div>
+        <h2 class="completando">
+          <b
+            >Completando este formulario podes iniciar el tramite para tener tu
+            moto 0km</b
+          >
+        </h2>
+      </div>
+      <!--FORMULARIO PARA INICIAR TRAMITE-->
+      <form
+        id="formulario__motos"
+        action=""
+        method="get"
+        enctype="multipart/form-data"
+      >
+        <fieldset class="casilleros">
+          <legend>Informacion personal</legend>
+          <p class="sexo">Sexo</p>
+          <div class="sexohm">
+            <div>
+              <label class="hombre" for="Hombre">Hombre</label>
+              <input
+                class="sexo__option"
+                type="radio"
+                name="sexo"
+                id="hombre"
+              />
+            </div>
+            <div>
+              <label class="hombre" for="mujer">Mujer</label>
+              <input type="radio" name="sexo" id="mujer" />
+            </div>
+          </div>
+          <div class="diferentes-elecciones">
+            <div>
+              <label class="apartado" for="nombre">Nombre</label>
+              <input class="complete" type="text" id="nombre" name="nombre" />
+            </div>
+            <div>
+              <label class="apartado" for="apellido">Apellido</label>
+              <input
+                class="complete"
+                type="text"
+                id="apellido"
+                name="apellido"
+              />
+            </div>
+            <div>
+              <label class="apartado" for="telefono">Telefono</label>
+              <input
+                class="complete"
+                type="number"
+                id="telefono"
+                name="telefono"
+              />
+            </div>
+            <div>
+              <label class="apartado" for="email">Email</label>
+              <input class="complete" type="email" id="email" name="email" />
+            </div>
+            <div>
+              <label class="apartado" for="direccion">Dirección</label>
+              <input
+                class="complete"
+                type="text"
+                id="direccion"
+                name="direccion"
+              />
+            </div>
+            <div>
+              <label class="apartado" for="modelo">Modelo</label>
+              <select class="complete" name="modelo" id="modelo">
+                <option value="cripton">Yamaha Cripton</option>
+                <option value="xtz125">Yamaha XTZ 125</option>
+                <option value="xtz250">Yamaha XTZ 250</option>
+                <option value="yzf250">Yamaha YZF 250</option>
+                <option value="yzf450">Yamaha YZF 450</option>
+                <option value="wave">Honda Wave</option>
+                <option value="biz">Honda Biz</option>
+                <option value="xr150">Honda XR 150</option>
+                <option value="xr250">Honda XR 250</option>
+                <option value="crf250">Honda CRF 250</option>
+                <option value="crf450">Honda CRF 450</option>
+              </select>
+            </div>
+            <div>
+              <label class="apartado" for="pago">Metodo de pago</label>
+              <select class="complete" name="pago" id="pago">
+                <option value="“0”">Seleccione las cuotas</option>
+                <option value="“1”">1 solo pago</option>
+                <option value="“2”">3 cuotas sin interes</option>
+                <option value="“3”">6 cuotas</option>
+                <option value="“4”">12 cuotas</option>
+              </select>
+            </div>
+          </div>
+          <div class="elegicolor">
+            <label class="apartado" for="color">Color</label>
+            <input
+              class="complete__color"
+              type="color"
+              id="color"
+              name="color"
+            />
+          </div>
+          <div class="btn--fondo">
+            <input class="btn" type="submit" value="Enviar" />
+          </div>
+        </fieldset>
+      </form>
+      <footer id="finpag5">
+        <div>
+          <p class="seguinos5 fondo__negro" id="seguinos2">
+            <b>SEGUINOS EN TODAS NUESTRAS REDES</b>
+          </p>
         </div>
-    </body>
+        <!--ENLACES ABSOLUTOS-->
+        <div>
+          <ul id="menu__list">
+            <li>
+              <a
+                class="redes-list"
+                id="contactenos5"
+                href="https://www.facebook.com/joacko.sierra"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                class="redes-list"
+                id="contactenos5"
+                href="https://www.instagram.com/joacosierraa/"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                class="redes-list"
+                id="contactenos5"
+                href="https://www.youtube.com/channel/UC_0DQV0Pm6fnr9LMcRS7RHw/featured"
+                >YouTube</a
+              >
+            </li>
+            <li>
+              <a
+                class="redes-list"
+                id="contactenos5"
+                href="https://twitter.com/joacosierraa"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
