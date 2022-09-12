@@ -63,95 +63,109 @@
         </header>
       </div>
       <!--LISTA ANIDADA (ordenada + desordenada)-->
-      <h2 class="marca" id="yamaha"><b>YAMAHA</b></h2>
-      <ol id="lista__modelos">
-        <!--MOTOS MARCA YAMAHA-->
-        <li class="motos__name">Yamaha Cripton</li>
-        <ul>
-          <li class="motos__value">1500 USD</li>
-          <img
-            id="image__size"
-            src="../Imagenes/cripton.jpg"
-            alt="Yamaha cripton"
-          />
-        </ul>
-        <li class="motos__name">Yamaha Xtz 125</li>
-        <ul>
-          <li class="motos__value">2300 USD</li>
-          <img
-            id="image__size"
-            src="../Imagenes/xtz125.jpg"
-            alt="Yamaha XTZ125"
-          />
-        </ul>
-        <li class="motos__name">Yamaha Xtz 250</li>
-        <ul>
-          <li class="motos__value">5200 USD</li>
-          <img
-            id="image__size"
-            src="../Imagenes/xtz250.jpg"
-            alt="Yamaha XTZ250"
-          />
-        </ul>
-        <li class="motos__name">Yamaha YZF 250</li>
-        <ul>
-          <li class="motos__value">13500USD</li>
-          <img
-            id="image__size"
-            src="../Imagenes/yzf250.jpg"
-            alt="Yamaha YZF250"
-          />
-        </ul>
-        <li class="motos__name">Yamaha YZF 450</li>
-        <ul>
-          <li class="motos__value">15000USD</li>
-          <img
-            id="image__size"
-            src="../Imagenes/yzf450.jpg"
-            alt="Yamaha ZF450"
-          />
-        </ul>
-        <!-- MOTOS MARCA HONDA-->
-        <h2 class="marca" id="honda"><b>HONDA</b></h2>
-        <li class="motos__name">Honda Wave</li>
-        <ul>
-          <li class="motos__value">1100USD</li>
-          <img id="image__size" src="../Imagenes/wave.jpg" alt="Honda Wave" />
-        </ul>
-        <li class="motos__name">Honda biz</li>
-        <ul>
-          <li class="motos__value">1600USD</li>
-          <img id="image__size" src="../Imagenes/biz.jpg" alt="Honda Biz" />
-        </ul>
-        <li class="motos__name">Honda Xr 150</li>
-        <ul>
-          <li class="motos__value">2100USD</li>
-          <img id="image__size" src="../Imagenes/xr150.jpg" alt="Honda XR150" />
-        </ul>
-        <li class="motos__name">Honda Xr 250</li>
-        <ul>
-          <li class="motos__value">5000USD</li>
-          <img id="image__size" src="../Imagenes/xr250.jpg" alt="Honda XR250" />
-        </ul>
-        <li class="motos__name">Honda CRF 250</li>
-        <ul>
-          <li class="motos__value">14000USD</li>
-          <img
-            id="image__size"
-            src="../Imagenes/crf250.jpg"
-            alt="Honda CRF250"
-          />
-        </ul>
-        <li class="motos__name">Honda CRF 450</li>
-        <ul>
-          <li class="motos__value">17000USD</li>
-          <img
-            id="image__size"
-            src="../Imagenes/crf450.jpg"
-            alt="Honda CRF450"
-          />
-        </ul>
-      </ol>
+      <h2 class="marca"><b>MODELOS</b></h2>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+        </div>
+        <div class="carousel-inner">
+          <div id="nombres--motos" class="carousel-item active">
+            <img src="../Imagenes/wave.jpg" id="img-motos" class="d-block w-100" alt="Honda Wave">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Honda wave</h5>
+              <p class="valor-motos">1100 USD</p>
+            </div>
+          </div>
+          <div id="nombres--motos" class="carousel-item">
+            <img src="../Imagenes/cripton.jpg" id="img-motos" class="d-block w-100" alt="Yamaha Cripton">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Yamaha Cripton</h5>
+              <p class="valor-motos">1500 USD</p>
+            </div>
+          </div>
+          <div id="nombres--motos" class="carousel-item">
+            <img src="../Imagenes/biz.jpg" id="img-motos" class="d-block w-100" alt="Honda biz">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Honda Biz</h5>
+              <p class="valor-motos">1700 USD</p>
+            </div>
+          </div>
+          <div id="nombres--motos" class="carousel-item">
+            <img src="../Imagenes/xtz125.jpg" id="img-motos" class="d-block w-100" alt="Yamaha xtz125">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Yamaha XTZ 125</h5>
+              <p class="valor-motos">2300 USD</p>
+            </div>
+          </div>
+          <div id="nombres--motos" class="carousel-item">
+            <img src="../Imagenes/xr150.jpg" id="img-motos" class="d-block w-100" alt="Honda XR150">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Honda XR150</h5>
+              <p class="valor-motos">2400 USD</p>
+            </div>
+          </div>
+          <div id="nombres--motos" class="carousel-item">
+            <img src="../Imagenes/xr250.jpg" id="img-motos" class="d-block w-100" alt="Honda xr250">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Honda XR250</h5>
+              <p class="valor-motos">5300 USD</p>
+            </div>
+          </div>
+          <div id="nombres--motos" class="carousel-item">
+            <img src="../Imagenes/xtz250.jpg" id="img-motos" class="d-block w-100" alt="Yamaha xtz250">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Yamaha Xtz 250</h5>
+              <p class="valor-motos">5500 USD</p>
+            </div>
+          </div>
+          <div id="nombres--motos" class="carousel-item">
+            <img src="../Imagenes/yzf250.jpg" id="img-motos" class="d-block w-100" alt="Yamaha yzf 250">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Yamaha YZF 250</h5>
+              <p class="valor-motos">20000 USD</p>
+            </div>
+          </div>
+          <div id="nombres--motos" class="carousel-item">
+            <img src="../Imagenes/crf250.jpg" id="img-motos" class="d-block w-100" alt="Honda CRF250">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Honda CRF250</h5>
+              <p class="valor-motos">22000 USD</p>
+            </div>
+          </div>
+          <div id="nombres--motos" class="carousel-item">
+            <img src="../Imagenes/yzf450.jpg" id="img-motos" class="d-block w-100" alt="Yamaha yzf 450">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Yamaha YZF 450</h5>
+              <p class="valor-motos">24000 USD</p>
+            </div>
+          </div>
+          <div id="nombres--motos" class="carousel-item">
+            <img src="../Imagenes/crf450.jpg" id="img-motos" class="d-block w-100" alt="Honda CRF450">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Honda CRF450</h5>
+              <p class="valor-motos">25000 USD</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <footer class="fondo__negro">
         <div>
           <p class="seguinos" id="seguinos2">

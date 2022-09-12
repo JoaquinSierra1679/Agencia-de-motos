@@ -26,13 +26,6 @@ section{
 article{
     grid-area: article;
 }
-
-/*---------------------hasta tablets grandes------------------------------------------------------*/
-
-@media (max-width:768px){
-
-}
-
 /*-------------------------------------------desktop -----------------------------*/
 
 @media (min-width:992px){
@@ -155,33 +148,26 @@ list-style-type: none;
 color: #ffffff;
 padding: 50px;
 text-align: center;
+margin-top: 30px;
 }
-
-#yamaha{
-margin-top: 50px;
-color: #ffffff;
+#carouselExampleCaptions{
+    height: 60vh;
 }
-
-#honda{
-color: #ff0000;
+.carousel-inner{
+    height: 50vh;
 }
-
-.motos__name{
-padding-top: 10px;
-color: #ffffff;
+#img-motos{
+    height: 50vh;
 }
-
-.motos__value{
-text-align: center;
-color:#0fcd4f;
-list-style-type: none;
+#nombres--motos{
+    height: 58vh;
 }
-
-#image__size{
-width: 400px;
-height: 300px;
+.h5, h5{
+    color: #000000;
 }
-
+.valor-motos{
+    color: #0fcd4f;
+}
 #seguinos2{
 color: #ffffff;
 }
