@@ -1,0 +1,37 @@
+
+@import "../base/_variable";
+#home4{
+    background-image: url('https://img.remediosdigitales.com/f3b8a4/sanders-dakar-2022-2/1366_2000.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    }
+    
+    .Subtitulo4{
+    margin-top: 0.1px;
+    margin-bottom: 1px;
+    padding-top: 100px;
+    text-align: center;
+    }
+    
+    .parrafo__somos{
+    text-align: center;
+    font-size: 450;
+    }
+    
+    .parrafo__redes{
+    text-align: center;
+    }
+    
+    .encontranos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 500px;
+    bottom: 0;
+    }
+    .redes4{
+    color: $color-negro;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+    }

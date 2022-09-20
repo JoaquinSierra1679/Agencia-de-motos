@@ -1,0 +1,86 @@
+#home5{
+    background-image: url('https://www.motociclismo.es/uploads/static/motociclismo/upload/images/paragrapharticle/30090/paragrapharticle-70789-596c91c28efa2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    }
+    
+    .completando{
+    color: #ffffff;
+    border: solid 1px #000000;
+    background-color: #000000;
+    margin-top: 65px;
+    text-align: center;
+    }
+    
+    #formulario__motos{
+        
+    display: flex;
+    justify-content: center;
+    }
+    
+    legend{
+    text-align: center;
+    }
+    
+    fieldset{
+    text-align: start;
+    background-color: #ffffff;
+    }
+    
+    .sexo{
+    text-align: center
+    }
+    .sexohm{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .diferentes-elecciones{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .complete{
+    margin-bottom: 30px;
+    display:inline;
+    }
+    
+    .elegicolor{
+        display: flex;
+        justify-content: center;
+    }
+    .complete__color{
+    margin-bottom: 25px;
+    }
+    
+    .btn--fondo{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .btn{
+    background-color: #ffffff;
+    }
+    
+    .fondo__negro{
+    background-color: #000000;
+    }
+    
+    .seguinos5{
+    display: flex;
+    justify-content: center;
+    justify-items: end;
+    margin-bottom: 40px;
+    }
+    #contactenos5{
+    color: #ffffff;
+    text-decoration: none;
+    border: solid 1px #000000;
+    background-color: #000000;
+    }
+    #finpag5{
+        background-color: #000000;
+        height: 50vh;
+    }

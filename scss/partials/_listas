@@ -1,0 +1,39 @@
+#home2{
+    background-image: linear-gradient(90deg,white,black,white);
+    }
+    
+    #lista__modelos{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    }
+    
+    .marca{
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    margin-top: 30px;
+    }
+    #carouselExampleCaptions{
+        height: 60vh;
+    }
+    .carousel-inner{
+        height: 50vh;
+    }
+    #img-motos{
+        height: 50vh;
+    }
+    #nombres--motos{
+        height: 58vh;
+    }
+    .h5, h5{
+        color: #000000;
+    }
+    .valor-motos{
+        color: #0fcd4f;
+    }
+    #seguinos2{
+    color: #ffffff;
+    }
