@@ -1,1 +1,6 @@
-Agregue keywords en todas las páginas, mejorando mi SEO, para que sea más fácil encontrar lo que el cliente busca
+Agregue keywords en todas las páginas, mejorando mi SEO, para que sea más fácil encontrar lo que el cliente busca.
+Tambien le puse en cada pagina un "title" que describa lo que se va a ver en la pagina.
+Todas las paginas con H1 mejorando el seo.
+Y cada pagina de codigo con sus espacios respectivos, de padres a hijos.
+Trate de ponerle un nombre que de informacion de lo que se va a ver en las paginas,asi mirando el link te das cuenta de donde estas parado.
+Y cada imagen que se ve en las paginas, tiene el alt con el nombre de lo que se esta visualizando.
