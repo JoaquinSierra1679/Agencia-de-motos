@@ -1,3 +1,9 @@
+@mixin flex-column-center{
+	display:flex;
+	flex-direction:column;
+	align-content:center;
+}
+
 #home5{
     background-image: url('https://www.motociclismo.es/uploads/static/motociclismo/upload/images/paragrapharticle/30090/paragrapharticle-70789-596c91c28efa2.jpg');
     background-repeat: no-repeat;
@@ -38,9 +44,7 @@
         justify-content: space-evenly;
     }
     .diferentes-elecciones{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
+        @include flex-column-center;
     }
     .complete{
     margin-bottom: 30px;

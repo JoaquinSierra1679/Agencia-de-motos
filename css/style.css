@@ -1,5 +1,5 @@
 #home4 {
-  background-image: url("https://img.remediosdigitales.com/f3b8a4/sanders-dakar-2022-2/1366_2000.jpg");
+  background-image: url("https://thisisrock.es/web2020/wp-content/uploads/2021/02/Harley-Davidson-Explora-Horizontes-Infinitos.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh; }
@@ -10,12 +10,9 @@
   padding-top: 100px;
   text-align: center; }
 
-.parrafo__somos {
+.parrafo__somos, .parrafo__redes {
   text-align: center;
   font-size: 450; }
-
-.parrafo__redes {
-  text-align: center; }
 
 .encontranos {
   display: flex;
@@ -113,7 +110,9 @@ fieldset {
 
 #home--grid {
   display: grid;
-  grid-template-areas: "header header" "section section" "article article";
+  grid-template-areas: "header header"
+ "section section"
+ "article article";
   grid-template-rows: 100px 650px 60px;
   grid-template-columns: repeat(1fr); }
 
@@ -250,14 +249,14 @@ a.redes-list {
   padding-top: 100px;
   text-align: center; }
 
-#table--horario {
-  text-align: center;
-  background-color: #ffffff; }
-
 .table {
   background-color: #000000;
   display: flex;
   justify-content: center; }
+
+#table--horario {
+  text-align: center;
+  background-color: #ffffff; }
 
 .dias {
   height: 100px; }

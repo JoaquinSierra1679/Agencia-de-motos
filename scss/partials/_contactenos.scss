@@ -1,7 +1,7 @@
 
 @import "../base/_variable";
 #home4{
-    background-image: url('https://img.remediosdigitales.com/f3b8a4/sanders-dakar-2022-2/1366_2000.jpg');
+    background-image: url('https://thisisrock.es/web2020/wp-content/uploads/2021/02/Harley-Davidson-Explora-Horizontes-Infinitos.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -20,7 +20,7 @@
     }
     
     .parrafo__redes{
-    text-align: center;
+        @extend .parrafo__somos
     }
     
     .encontranos{

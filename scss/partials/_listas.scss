@@ -11,10 +11,10 @@
     }
     
     .marca{
-    color: #ffffff;
-    padding: 50px;
-    text-align: center;
-    margin-top: 30px;
+    color: map-get($estilos, color);
+    padding: map-get($estilos, 50px);
+    text-align: map-get($estilos, centro);
+    margin-top: map-get($estilos, margintop);
     }
     #carouselExampleCaptions{
         height: 60vh;

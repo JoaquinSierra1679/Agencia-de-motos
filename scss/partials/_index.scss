@@ -7,9 +7,9 @@ font-family: 'Karma', serif;
 #home--grid{
 display: grid;
 grid-template-areas: 
-"header header"
-"section section"
-"article article"
+    "header header"
+    "section section"
+    "article article"
 ;
 grid-template-rows: 100px 650px 60px;
 grid-template-columns:repeat(1fr);
@@ -37,7 +37,7 @@ width: 100%;
 }
 #titulo{
     display: flex;
-justify-content: center;
+    justify-content: center;
 }
 .container-fluid{
     display: flex;
@@ -64,47 +64,43 @@ justify-content: center;
     justify-content: space-around;
     list-style-type: none;
     }
-    #btn-contactenos{
-        display: none;
-    }
-    .btn--contenedor{
-        position: fixed;
-        bottom: 20px;
-    }
-    .contactenos{
-        a{
-            display: block;
-            color: #000000;
-            text-decoration: none;
-            border: solid 1px #000000;
-            background-color: #ffffff;
-            &:hover{
-            background: #8a8686;
-            }
-        }
-    }
-    .modelos{
-        text-align: center;
-        margin: 110px
-        }
-        
-        .texto{
-        margin: 100px 100px 30px 100px;
-        }
-        
-        #video{
-        display: flex; 
-        justify-content: center;
-        }
-        
-        .seguinos{
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        }
-        
-        a.redes-list{
-        bottom: 0;
-        text-decoration: none;
+#btn-contactenos{
+    display: none;
+}
+.btn--contenedor{
+    position: fixed;
+    bottom: 20px;
+}
+.contactenos{
+    a{
+        display: block;
         color: #000000;
+        text-decoration: none;
+        border: solid 1px #000000;
+        background-color: #ffffff;
+        &:hover{
+        background: #8a8686;
         }
+    }
+}
+.modelos{
+    text-align: center;
+    margin: 110px
+}  
+.texto{
+    margin: 100px 100px 30px 100px;
+}
+#video{
+    display: flex; 
+    justify-content: center;
+}
+.seguinos{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+a.redes-list{
+    bottom: 0;
+    text-decoration: none;
+    color: #000000;
+}
