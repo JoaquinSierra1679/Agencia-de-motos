@@ -219,10 +219,13 @@ a.redes-list {
   margin-top: 30px; }
 
 #carouselExampleCaptions {
-  height: 60vh; }
+  height: 60vh;
+  display: flex;
+  justify-content: center; }
 
 .carousel-inner {
-  height: 50vh; }
+  height: 50vh;
+  width: 90vh; }
 
 #img-motos {
   height: 50vh; }
@@ -256,14 +259,14 @@ a.redes-list {
 
 #table--horario {
   text-align: center;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  border: 1px solid black; }
 
 .dias {
   height: 100px; }
 
 tbody {
-  height: 200px;
-  border-width: 2; }
+  height: 200px; }
 
 @media (min-width: 992px) {
   #navbarNav {
