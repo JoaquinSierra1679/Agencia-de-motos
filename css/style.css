@@ -19,12 +19,14 @@
   flex-direction: row;
   justify-content: space-evenly;
   height: 500px;
-  bottom: 0; }
+  bottom: 0;
+  list-style-type: none; }
 
 .redes4 {
-  color: rgba(0, 0, 0, 0.62);
+  color: white;
   border: solid 1px #000000;
-  background-color: #ffffff; }
+  background-color: #000000;
+  text-decoration: none; }
 
 #home5 {
   background-image: url("https://www.motociclismo.es/uploads/static/motociclismo/upload/images/paragrapharticle/30090/paragrapharticle-70789-596c91c28efa2.jpg");
@@ -110,9 +112,7 @@ fieldset {
 
 #home--grid {
   display: grid;
-  grid-template-areas: "header header"
- "section section"
- "article article";
+  grid-template-areas: "header header" "section section" "article article";
   grid-template-rows: 100px 650px 60px;
   grid-template-columns: repeat(1fr); }
 
