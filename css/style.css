@@ -132,7 +132,8 @@ article {
   background-image: url("https://lamoto.com.ar/wp-content/uploads/2020/06/crf450-3.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: unset;
+  background-position-y: 50px;
   height: 100vh;
   background-attachment: fixed;
   width: 100%; }
@@ -154,6 +155,8 @@ article {
   flex-direction: column; }
 
 #Subtitulo {
+  display: flex;
+  justify-content: center;
   transition: all 0.4s ease; }
   #Subtitulo:hover {
     transition: all 0.4s ease;
