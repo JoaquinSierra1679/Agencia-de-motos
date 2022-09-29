@@ -66,17 +66,23 @@ width: 100%;
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
-    }
+}
+article{
+    display: flex;
+    justify-content: center;
+}
 #btn-contactenos{
     display: none;
 }
 .btn--contenedor{
-    position: fixed;
-    bottom: 20px;
+    position: absolute;
+    bottom: 5px;
+}
+.btn-dark{
+    --bs-btn-color: #212529;
 }
 .contactenos{
     a{
-        display: block;
         color: #000000;
         text-decoration: none;
         border: solid 1px #000000;
@@ -88,14 +94,19 @@ width: 100%;
 }
 .modelos{
     text-align: center;
-    margin: 110px
+    margin-top:90px;
 }  
+#links{
+    color:map-get($links,color);
+    text-decoration:map-get($links,text-decoration);
+}
 .texto{
-    margin: 100px 100px 30px 100px;
+    margin: 70px 100px 30px 100px;
 }
 #video{
     display: flex; 
     justify-content: center;
+    margin-bottom: 10px;
 }
 .seguinos{
     text-align: center;

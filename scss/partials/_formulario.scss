@@ -33,7 +33,8 @@
     
     fieldset{
     text-align: start;
-    background-color: #ffffff;
+    background-color: transparent;
+    border:solid;
     }
     
     .sexo{
@@ -88,4 +89,9 @@
     #finpag5{
         background-color: #000000;
         height: 20vh;
+        bottom: 0;
+        width: 100%;
+    }
+    .espacio-arriba{
+        padding-top: 20px;
     }

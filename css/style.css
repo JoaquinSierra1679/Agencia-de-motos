@@ -14,6 +14,9 @@
   text-align: center;
   font-size: 450; }
 
+.agregado {
+  margin-bottom: 370px; }
+
 .encontranos {
   display: flex;
   flex-direction: row;
@@ -53,7 +56,8 @@ legend {
 
 fieldset {
   text-align: start;
-  background-color: #ffffff; }
+  background-color: transparent;
+  border: solid; }
 
 .sexo {
   text-align: center; }
@@ -103,7 +107,12 @@ fieldset {
 
 #finpag5 {
   background-color: #000000;
-  height: 20vh; }
+  height: 20vh;
+  bottom: 0;
+  width: 100%; }
+
+.espacio-arriba {
+  padding-top: 20px; }
 
 * {
   padding: 0px;
@@ -168,15 +177,21 @@ article {
   justify-content: space-around;
   list-style-type: none; }
 
+article {
+  display: flex;
+  justify-content: center; }
+
 #btn-contactenos {
   display: none; }
 
 .btn--contenedor {
-  position: fixed;
-  bottom: 20px; }
+  position: absolute;
+  bottom: 5px; }
+
+.btn-dark {
+  --bs-btn-color: #212529; }
 
 .contactenos a {
-  display: block;
   color: #000000;
   text-decoration: none;
   border: solid 1px #000000;
@@ -186,14 +201,19 @@ article {
 
 .modelos {
   text-align: center;
-  margin: 110px; }
+  margin-top: 90px; }
+
+#links {
+  color: #000000;
+  text-decoration: none; }
 
 .texto {
-  margin: 100px 100px 30px 100px; }
+  margin: 70px 100px 30px 100px; }
 
 #video {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 10px; }
 
 .seguinos {
   text-align: center;
@@ -242,6 +262,9 @@ a.redes-list {
 .valor-motos {
   color: #0fcd4f; }
 
+.espacio-arriba {
+  padding-top: 20px; }
+
 #seguinos2 {
   color: #ffffff; }
 
@@ -269,7 +292,11 @@ a.redes-list {
   height: 100px; }
 
 tbody {
-  height: 200px; }
+  height: 200px;
+  margin-bottom: 100px; }
+
+.pegado-abajo {
+  position: absolute; }
 
 @media (min-width: 992px) {
   #navbarNav {
