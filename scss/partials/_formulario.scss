@@ -5,11 +5,10 @@
 }
 
 #home5{
-    background-image: url('https://www.motociclismo.es/uploads/static/motociclismo/upload/images/paragrapharticle/30090/paragrapharticle-70789-596c91c28efa2.jpg');
+    background-image: url('https://www.actumoto.ch/wp-content/uploads/thumbnails/2021/01/20210105DAK0007-DPPI-F.Gooden-1700x1133.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    background-attachment:fixed;
     height: 100%;
     width: 100%;
     }
@@ -24,17 +23,18 @@
     
     #formulario__motos{ 
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     }
     
     legend{
     text-align: center;
     }
     
-    fieldset{
+    fieldset.casilleros{
     text-align: start;
     background-color: transparent;
     border:solid;
+    padding: 40px;
     }
     
     .sexo{
@@ -55,21 +55,20 @@
     .elegicolor{
         display: flex;
         justify-content: center;
+        padding-bottom: 15px;
+    }
+    label.apartado{
+        margin-right: 20px;
     }
     .complete__color{
     margin-bottom: 5px;
     }
     
-    .btn--fondo{
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
+    .btn-center{
+        display: flex;
+        justify-content: center;
     }
-    
-    .btn{
-    background-color: #ffffff;
-    }
-    
+
     .fondo__negro{
     background-color: #000000;
     }

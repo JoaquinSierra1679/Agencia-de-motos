@@ -25,6 +25,12 @@
         height: 50vh;
         width: 90vh;
     }
+    span.carousel-control-next-icon{
+        background-color: black;
+    }
+    span.carousel-control-prev-icon{
+        @extend span.carousel-control-next-icon
+    }
     #img-motos{
         height: 50vh;
     }
