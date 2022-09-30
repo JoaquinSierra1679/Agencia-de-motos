@@ -11,7 +11,7 @@ grid-template-areas:
     "section section"
     "article article"
 ;
-grid-template-rows: 100px 650px 60px;
+grid-template-rows: 80px 630px 70px;
 grid-template-columns:repeat(1fr);
 }
 header{
@@ -74,12 +74,9 @@ article{
 #btn-contactenos{
     display: none;
 }
-.btn--contenedor{
-    position: absolute;
-    bottom: 5px;
-}
+
 .btn-dark{
-    --bs-btn-color: #212529;
+    --bs-btn-color: #ffffff;
 }
 .contactenos{
     a{
@@ -94,14 +91,14 @@ article{
 }
 .modelos{
     text-align: center;
-    margin-top:90px;
+    margin-top:80px;
 }  
 #links{
     color:map-get($links,color);
     text-decoration:map-get($links,text-decoration);
 }
 .texto{
-    margin: 70px 100px 30px 100px;
+    margin: 50px 100px 30px 100px;
 }
 #video{
     display: flex; 
